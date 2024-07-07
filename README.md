@@ -33,7 +33,7 @@ pip install Faker
 
 Install ChromeDriver and Chromium using Homebrew (macOS)
 bash
-Skopiuj kod
+
 brew install chromedriver
 brew install Faker
 
@@ -125,4 +125,3 @@ __pycache__/
 .env
 Security
 While this project does not specifically focus on security testing, it's important to handle fake data generation and user credentials with care. Ensure that no real user data is used during testing, and be mindful of any security prompts or CAPTCHAs that may appear during the automated tests.
-master
